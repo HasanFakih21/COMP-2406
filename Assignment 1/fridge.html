@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Fridges</title>
+		<link rel="stylesheet" href="community-fridge.css">
+	</head>
+	<body>
+        <button type = "button" id = "homeButton" onclick="window.location.href = 'index.html';"> HOME </button>
+        <section id = "fridgeSelection">
+            <h1>Available Fridges</h1>
+            <div class = "container" id = "fridgeContainer"> 
+            </div>
+        </section>
+        <section id = "itemSelection">
+            <div class = "pageContent">
+                <div class="menuTable" id = "filter">
+                    <div id="filterTop">
+                        <div id = "filterTopText">
+                            <h2 id = "name"></h2>
+                            <p id = "adress"></p>
+                            <p id = "phone"></p>
+                            </div>
+                        <div id="myProgress">
+                            <div id="myBar"></div>
+                        </div>
+                    </div>
+                    <ul class = "dropDown">
+                        <li class = "dropItem" id = "dairy">Dairy</li>
+                        <li class = "dropItem" id = "pantry">Pantry</li>
+                        <li class = "dropItem" id = "meat and seafood">Meat and Seafood</li>
+                        <li class = "dropItem" id = "produce">Produce</li>
+                        <li class = "dropItem" id = "bakery">Bakery</li>
+                        <li class = "dropItem" id = "frozen">Frozen</li>
+                    </ul>
+                </div>
+                <div class="menuTable" id = "items">
+                    <table id = "itemTable">
+                    </table>
+                </div>
+                <div class="menuTable" id = "cart">
+                    <ul id = "cartItems">
+                    </ul>
+                </div>
+            </div>
+        </section>
+	</body>
+	<script type="text/javascript" src="js/community-fridge.js"></script>
+    <script type="text/javascript" src="js/comm-fridge-data.js"></script>
+</html>

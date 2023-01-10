@@ -1,0 +1,146 @@
+body {
+    background-color:lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-weight:bolder;
+    text-align: center;
+    color: darkslategray;
+}
+
+.container {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.fridgeCircle {
+    border-radius: 100%;
+    background-color: lightsalmon;
+    width: 150px;
+    height: 150px;
+    font-size: x-small;
+    color: white;
+    line-height: 50%;
+    padding: 15px;
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.fridgeCircle:hover {
+    background-color: white;
+    color: goldenrod;
+}
+
+#fridgeImage {
+    height: 85px;
+}
+
+.homeButtons {
+    font-weight: lighter;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-top: 35px;
+    padding-inline: 20px;
+    background-color: lightsalmon;
+    color: white;
+}
+
+.homeButtons:hover {
+    box-shadow: 2px 2px 3px black;
+}
+
+#homeButton {
+    border: none;
+    size: 40px;
+    padding: 10px;
+    background-color: white;
+    float: right;
+}
+
+.menuTable {
+    border-radius: 20px;
+    display: inline-block;
+    margin-right: 20px;
+    color: white;
+}
+
+#filter {
+    background-color: lightsalmon;
+    text-align: left;
+    float: left;
+}
+
+#items {
+    background-color: teal;
+    padding: 10px;
+    text-align: left;
+    float: left;
+    width: 400px;
+    min-height: 300px;
+}
+
+#cart {
+    background-color: brown;
+    text-align: left;
+    padding: 10px;
+    float: left;
+    width: 200px;
+    min-height: 300px;
+}
+
+.pageContent {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#cartItems {
+    list-style-type: none;
+    padding: 0;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+#filterTop {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#filterTopText {
+    line-height: 10px;
+}
+
+#myProgress {
+    width: 100%;
+    background-color: grey;
+    border-radius: 10px;
+}
+  
+#myBar {
+    width: 1%;
+    background-color: rgb(160, 60, 60);
+    text-align: center;
+    border-radius: 10px;
+    height: 30px;
+}
+
+ul.dropDown {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.dropDown li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+ul.dropDown li:hover{
+    background: rgb(255, 255, 255);
+    color: lightseagreen;
+}
